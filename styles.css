@@ -1,0 +1,131 @@
+.header {
+    background-color: white;
+}
+
+.header-title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.header-info p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.header-info i {
+    color: #0a542b;
+    margin-right: 5px;
+}
+
+.navbar-nav .nav-link {
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover {
+    color: #0a542b;
+}
+
+.dropdown-menu .dropdown-item {
+    font-size: 14px;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: #f1f1f1;
+    color: #0a542b;
+}
+
+.navbar-toggler {
+    border-color: rgba(0,0,0,.1);
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.footer {
+    background-color: #0a542b;
+    color: white;
+}
+
+.footer h5 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.footer p {
+    font-size: 14px;
+    margin-bottom: 0.5rem;
+}
+
+.footer form input {
+    width: 80%;
+    display: inline-block;
+}
+
+.footer button {
+    display: inline-block;
+    margin-left: 10px;
+}
+.nav-link {
+    font-weight: normal; /* Hoặc '400' tùy thuộc vào font-family của bạn */
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Đảm bảo chiều cao tối thiểu cho body là 100% chiều cao cửa sổ */
+}
+
+footer {
+    margin-top: auto; /* Đẩy footer xuống dưới cùng */
+}
+.card {
+    height: 100%; /* Đảm bảo các thẻ card chiếm toàn bộ chiều cao */
+    display: flex;
+    flex-direction: column;
+}
+
+.card-body {
+    flex: 1; /* Chiếm toàn bộ không gian còn lại */
+    display: flex;
+    flex-direction: column;
+}
+
+.card-body .card-title {
+    flex-grow: 0;
+}
+
+.card-body .card-text {
+    flex-grow: 1; /* Đoạn văn bản sẽ chiếm khoảng không gian còn lại */
+}
+
+.card-body .btn {
+    align-self: flex-start; /* Đặt nút ở cuối thẻ */
+}
+.card {
+    background-color: #e9f5f0;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+    width: 80px;
+    height: auto;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.card-text {
+    font-size: 14px;
+    color: #34495e;
+}
